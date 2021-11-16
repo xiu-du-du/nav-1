@@ -3,8 +3,9 @@ const $lastLi=$siteList.find('li.last')
 const x=localStorage.getItem('x')
 const xObject=JSON.parse(x)
 const hashMap=xObject||[
-    {logo:'A',url:'https://www.acfun.cn'},
-    {logo:'B',url:'https://www.bilibili.com'},
+    {logo:'A',url:'https://www.github.com'},
+    {logo:'B',url:'https://www.baidu.com'},
+    {logo:'B',url:'https://www.akk8.xyz'},
 ]
 
 const simpleUrl=(url)=>{
